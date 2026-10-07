@@ -1,0 +1,15 @@
+{
+  "name": "favorite-ai-expert-signals-demo",
+  "version": "1.0.0",
+  "description": "Companion demo: score feed posts for receipts vs hot takes — the article's 'favorite AI expert' filter, runnable.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

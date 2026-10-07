@@ -1,0 +1,22 @@
+[
+  {
+    "author": "@ships_stuff",
+    "text": "Our agent loop silently retried a $400 API call 6,000 times before the budget alarm fired. Here's the trace and the guardrail we added."
+  },
+  {
+    "author": "@futuremaxxer",
+    "text": "RAG is dead. Agents are the future. Most people aren't ready for what's coming next. 🚀"
+  },
+  {
+    "author": "@ml_ops_real",
+    "text": "Added a reranker to our retrieval: p95 latency dropped 300ms, answer quality up 9 points on our eval set. Repro notes in the repo."
+  },
+  {
+    "author": "@thoughtleader_ai",
+    "text": "AI will replace 90% of knowledge work. You can leverage agentic workflows to 10x your team's synergy. The future is now."
+  },
+  {
+    "author": "@debug_diary",
+    "text": "I was wrong about vector indexes being the bottleneck — flame graph says it's JSON parsing. 2.3GB of it per hour. Updated the post."
+  }
+]

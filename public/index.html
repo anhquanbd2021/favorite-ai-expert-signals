@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signal Checker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+  <h1>Signal Checker</h1>
+  <p class="sub">Who is your favorite AI expert? The answer is a filter: receipts up, hot takes down. Paste a post or run the sample feed.</p>
+  <textarea id="txt" placeholder="Paste a post here… e.g. 'We added a reranker and p95 dropped 300ms'"></textarea>
+  <button id="go">Score it</button>
+  <div class="panel" id="out" hidden></div>
+  <div class="panel"><h3 style="margin:0 0 8px;font-size:13px;color:var(--mut)">sample feed, ranked by receipts</h3><div id="feed"></div></div>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
